@@ -1,12 +1,13 @@
 public class Trainer extends Person{
     // Zusätzliche Eigenschaften eines Trainers:
-    private int erfarung;
+    private int erfahrung;
+    
     // Funktionen (get und set):
-    public int getErfahrungen(){
+    public int getErfahrung(){
         return erfahrung;
     }
             
     public void setErfahrung(int e){
-        erfahrungen = e;
+        erfahrung = e;
     }
 }
