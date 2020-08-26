@@ -3,6 +3,12 @@ public class Person{
     private String name;
     private int alter;
     
+    //konstruktoren
+    public Person(String n, int a){
+        name = n;
+        alter = a;
+    }
+    
     //Funktion
     public String getName(){
         return name;
